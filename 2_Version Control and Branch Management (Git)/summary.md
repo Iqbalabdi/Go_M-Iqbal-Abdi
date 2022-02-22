@@ -15,12 +15,11 @@ Pada penggunaan git, ada beberapa perintah penting yang wajib diketahui.
 6. git stash = untuk menyimpan semua progress pada commit terakhir tanpa membuat sebuah commit untuk state itu sendiri
 
 ### Penggunaan Github
-Proses concurrent pada Go dapat dilakukan dengan menggunakan
-bahasa pemrograman Go, bukan yang lain ya.
-Karena ini hanya contoh, jadi penjelasan tidak tepat.
-Ikuti pola penulisan dalam dokumen ini!
-Tetapi jangan meniru isinya, karena ini hanya contoh.
+Github merupakan sebuah layanan/platform bagi developer untuk menyimpan dan mengelola code/project mereka, sekaligus sebagai tempat untuk berkolaborasi atau berbagi code dengan developer lain. Penggunaan nya tidak seperti menggunakan git cli, tetapi memiliki user interface untuk beriteraksi dengan user. git dan Github merupakan 2 teknologi yang memungkinkan para developer untuk melakukan versioning pada code mereka. 
 
 ## Task
-### 1. Membuat Jembatan
-Pada task ini, membuat jembatan hasil dari pembelajaran proses concurrent yang dilakukan pada Go.
+### 1. Buat Repo di Github
+ini repo nya :D
+### 2. Implementasi branching yang tediri dari master/main, development, featureA, featureB
+### 3. Implementasi instruksi git untuk push, pull, merge, stash
+### 4. Implementasikan sebuah penanganan conflict
