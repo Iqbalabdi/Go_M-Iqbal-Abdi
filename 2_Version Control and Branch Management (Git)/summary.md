@@ -21,5 +21,8 @@ Github merupakan sebuah layanan/platform bagi developer untuk menyimpan dan meng
 ### 1. Buat Repo di Github
 ini repo nya :D
 ### 2. Implementasi branching yang tediri dari master/main, development, featureA, featureB
+![image_1](./screenshots/image_1.jpg)
 ### 3. Implementasi instruksi git untuk push, pull, merge, stash
+![image_2](./screenshots/image_2.jpg)
 ### 4. Implementasikan sebuah penanganan conflict
+![image_3](./screenshots/image_3.jpg)
