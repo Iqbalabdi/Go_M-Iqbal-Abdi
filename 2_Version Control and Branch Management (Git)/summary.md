@@ -1,4 +1,4 @@
-# 2 Version Control and Branch Management (Git)
+# 2. Version Control and Branch Management (Git)
 
 ## Resume
 Dalam materi ini, mempelajari:
