@@ -34,5 +34,9 @@ Berikut gambar flowchart problem Lampu-dan-tombol:
 
 ![lampu-dan-tombol](./screenshots/lampu-dan-tombol_flowchart.png)  
 
-### 3. Install Golang
+### 3. Install Golang  
+![gp-install](./screenshots/go_install.jpg)  
 
+### 4. Hello World!  
+Pada task ini, dibuat sebuah program golang yang akan memberikan output string "Hello World!".
+Berikut kode dari program tersebut: 
