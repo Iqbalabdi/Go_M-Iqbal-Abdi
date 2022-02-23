@@ -20,7 +20,7 @@ Lalu ada 3 konsep dasar algoritma:
 
 Untuk merepresentasikan sebuah algoritma, ada 2 cara yang dapat dilakukan :  
 1. Pseudocode, yaitu cara yang lebih sederhana untuk menulis sebuah kode
-2. Flowchart, yaitu sebuah diagram diagram yang menampilkan langkah-langkah dan keputusan untuk melakukan sebuah proses dari suatu program
+2. Flowchart, yaitu sebuah diagram yang menampilkan langkah-langkah dan keputusan untuk melakukan sebuah proses dari suatu program
 
 ### Golang (install, run, compile)
 Sebelum dapat melakukan koding menggunakan golang, kita harus melakukan instalasi golang terlebih dahulu. Pada golang, terdapat 3 perintah yang memiliki kemiripan, yaitu :
