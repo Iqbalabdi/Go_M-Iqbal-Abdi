@@ -22,12 +22,17 @@ Ikuti pola penulisan dalam dokumen ini!
 Tetapi jangan meniru isinya, karena ini hanya contoh.
 
 ## Task
-### 1. Flowchart bilangan prima
-Pada task ini, dibuat sebuah flowchart yang menggambarkan algoritma untuk menentukan apakah sebuah nilai merupakan bilangan prima atau tidak
-Berikut gambar flowchart bilangan prima:
+### 1. Flowchart problem bilangan prima
+Pada task ini, dibuat sebuah flowchart yang menggambarkan algoritma untuk menentukan apakah sebuah nilai merupakan bilangan prima atau tidak  
+Berikut gambar flowchart bilangan prima:  
 
-![bilangan-prima](./screenshots/prime-number_flowchart.jpg)
+![bilangan-prima](./screenshots/prime-number_flowchart.png)
 
-output:
+### 2. Flowchart problem Lampu-dan-tombol
+Pada task ini, dibuat sebuah flowchart yang menggambarkan algoritma untuk menentukan keadaan sebuah lampu (hidup/mati) 
+Berikut gambar flowchart problem Lampu-dan-tombol:
 
-![jembatan](./screenshots/jembatan.jpg)
+![lampu-dan-tombol](./screenshots/lampu-dan-tombol_flowchart.png)  
+
+### 3. Install Golang
+
