@@ -6,8 +6,8 @@ Dalam materi ini, mempelajari:
 2. Golang (install, run, compile)
 
 ### Penngenalan Algoritma
-Algoritma didefinisikan sebagai sebuah prosedur komputasi untuk mengambil beberapa nilai sebagai input, memproses nya, lalu menghasilkan sebuah output
-Karakteristik Algoritma:
+Algoritma didefinisikan sebagai sebuah prosedur komputasi untuk mengambil beberapa nilai sebagai input, memproses nya, lalu menghasilkan sebuah output  
+Algoritma mempunyai karakteristik berikut:
 1. Memiliki batas (awal dan akhir)
 2. Instruksi terdefinisi dengan baik
 3. efektif dan efisien
