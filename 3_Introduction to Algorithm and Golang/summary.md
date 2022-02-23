@@ -38,5 +38,9 @@ Berikut gambar flowchart problem Lampu-dan-tombol:
 ![gp-install](./screenshots/go_install.jpg)  
 
 ### 4. Hello World!  
-Pada task ini, dibuat sebuah program golang yang akan memberikan output string "Hello World!".
+Pada task ini, dibuat sebuah program golang yang akan memberikan output string "Hello World!". Instruksi yang akan diterapkan adalah go run, go build, go install
 Berikut kode dari program tersebut: 
+![gp-run](./screenshots/go_vscode.jpg)  
+
+Output :
+![gp-hello](./screenshots/go_hello.jpg)  
