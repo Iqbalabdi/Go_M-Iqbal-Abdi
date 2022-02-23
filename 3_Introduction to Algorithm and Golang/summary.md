@@ -32,12 +32,14 @@ Sebelum dapat melakukan koding menggunakan golang, kita harus melakukan instalas
 Pada task ini, dibuat sebuah flowchart yang menggambarkan algoritma untuk menentukan apakah sebuah nilai merupakan bilangan prima atau tidak  
 Berikut gambar flowchart bilangan prima:  
 
-![bilangan-prima](./screenshots/prime-number_flowchart.png)
+Link : https://whimsical.com/prime-number-flowchart-TdC4aSTNrrtcH54Mh7FVi1  
+![bilangan-prima](./screenshots/prime-number_flowchart.png)  
 
 ### 2. Flowchart problem Lampu-dan-tombol
 Pada task ini, dibuat sebuah flowchart yang menggambarkan algoritma untuk menentukan keadaan sebuah lampu (hidup/mati) 
 Berikut gambar flowchart problem Lampu-dan-tombol:
 
+Link : https://whimsical.com/lampu-dan-tombol-flowchart-SQ7pCzLNtQN3rtj7nRtEFC
 ![lampu-dan-tombol](./screenshots/lampu-dan-tombol_flowchart.png)  
 
 ### 3. Install Golang  
