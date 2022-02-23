@@ -12,14 +12,20 @@ Karakteristik Algoritma:
 2. Instruksi terdefinisi dengan baik
 3. efektif dan efisien
 
+Lalu ada 3 konsep dasar algoritma:
+1. Sequential (urutan)
+2. Branching (Percabangan)
+3. Looping (Perulangan)
 
+Untuk merepresentasikan sebuah algoritma, ada 2 cara yang dapat dilakukan :  
+1. Pseudocode, yaitu cara yang lebih sederhana untuk menulis sebuah kode
+2. Flowchart, yaitu sebuah diagram diagram yang menampilkan langkah-langkah dan keputusan untuk melakukan sebuah proses dari suatu program
 
 ### Golang (install, run, compile)
-Proses concurrent pada Go dapat dilakukan dengan menggunakan
-bahasa pemrograman Go, bukan yang lain ya.
-Karena ini hanya contoh, jadi penjelasan tidak tepat.
-Ikuti pola penulisan dalam dokumen ini!
-Tetapi jangan meniru isinya, karena ini hanya contoh.
+Sebelum dapat melakukan koding menggunakan golang, kita harus melakukan instalasi golang terlebih dahulu. Pada golang, terdapat 3 perintah yang memiliki kemiripan, yaitu :
+1. go run = untuk mengeksekusi file program yang berekstensi (.go)
+2. go build = untuk melakukan kompilasi (compile) file berekstensi (.go) sehingga menjadi sebuah binary file
+3. go install = sama seperti go build, hanya saja file binary/executable nya terletak pada folder path golang (%HOME/go/bin)
 
 ## Task
 ### 1. Flowchart problem bilangan prima
