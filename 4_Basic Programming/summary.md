@@ -71,3 +71,12 @@ Code :
 
 Output :  
 ![asterisk](./screenshots/playAsterisk_hasil.jpg) 
+
+### 8. Mencetak tabel perkalian
+Pada task ini, dibuat sebuah program untuk mencetak sebuah tabel perkalian
+
+Code :  
+![tabel-kali](./screenshots/tabel_perkalian_code.jpg) 
+
+Output :  
+![tabel-kali](./screenshots/tabel_perkalian_hasil.jpg) 
