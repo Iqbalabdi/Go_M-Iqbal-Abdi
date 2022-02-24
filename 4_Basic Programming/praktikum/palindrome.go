@@ -16,5 +16,6 @@ func palindrome(input string) bool {
 func main(){
 	fmt.Println(palindrome("katak"))
 	fmt.Println(palindrome("civic"))
-	fmt.Println(palindrome("madara"))
+	fmt.Println(palindrome("kaido"))
+	fmt.Println(palindrome("luffy"))
 }
