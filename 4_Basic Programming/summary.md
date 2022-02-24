@@ -54,3 +54,11 @@ Code :
 Output :  
 ![palindrome](./screenshots/palindrome_hasil.jpg) 
 
+### 6. Menghitung exponential
+Pada task ini, dibuat sebuah program untuk menghitung nilai exponen dari sebuah bilangan
+
+Code :  
+![exponen](./screenshots/exponential_code.jpg) 
+
+Output :  
+![exponen](./screenshots/exponential_hasil.jpg) 
