@@ -33,6 +33,14 @@ Pada task ini, dibuat sebuah program untuk menghitung faktor dari sebuah bilanga
 Code :  
 ![faktor](./screenshots/faktor_bilangan_code.jpg) 
 
-Code :  
+Output :  
 ![faktor](./screenshots/faktor_bilangan_hasil.jpg) 
 
+### 4. Menentukan sebuah bilangan prima
+Pada task ini, dibuat sebuah program untuk menentukan apakah sebuah bilangan tersebut meruapakan bilangan prima. Output dari program ini antara `true` atau `false`
+
+Code :  
+![prime](./screenshots/bilangan_prima_code.jpg) 
+
+Output :  
+![prime](./screenshots/bilangan_prima_hasil.jpg)   
