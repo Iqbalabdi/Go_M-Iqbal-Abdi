@@ -62,3 +62,12 @@ Code :
 
 Output :  
 ![exponen](./screenshots/exponential_hasil.jpg) 
+
+### 7. Membuat pola
+Pada task ini, dibuat sebuah program untuk membuat sebuah pola pyramid menggunakan asterisk
+
+Code :  
+![asterisk](./screenshots/playAsterisk_code.jpg) 
+
+Output :  
+![asterisk](./screenshots/playAsterisk_hasil.jpg) 
