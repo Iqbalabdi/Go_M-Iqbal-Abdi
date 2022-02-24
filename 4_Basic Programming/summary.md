@@ -44,3 +44,13 @@ Code :
 
 Output :  
 ![prime](./screenshots/bilangan_prima_hasil.jpg)   
+
+### 5. Menentukan Palindrome
+Pada task ini, dibuat sebuah program untuk menentukan apakah sebuah string tersebut meruapakan sebuah palindrome. Output dari program ini antara `true` atau `false`  
+
+Code :  
+![palindrome](./screenshots/palindrome_code.jpg) 
+
+Output :  
+![palindrome](./screenshots/palindrome_hasil.jpg) 
+
