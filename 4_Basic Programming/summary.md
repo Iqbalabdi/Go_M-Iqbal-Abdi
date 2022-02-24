@@ -13,22 +13,26 @@ Dalam materi ini, mempelajari:
 Pada task ini, dibuat sebuah program untuk menghitung luas permukaan tabung dengan input menggunakan `scanf`  
 
 Code :  
-![bilangan-prima](./screenshots/prime-number_flowchart.png)  
+![luas-permukaan](./screenshots/luas_permukaan_tabung_code.jpg)  
 
-### 2. Flowchart problem Lampu-dan-tombol
-Pada task ini, dibuat sebuah flowchart yang menggambarkan algoritma untuk menentukan keadaan sebuah lampu (hidup/mati) 
-Berikut gambar flowchart problem Lampu-dan-tombol:
+Output :  
+![luas-permukaan](./screenshots/luas_permukaan_tabung_hasil.jpg)  
 
-Link : https://whimsical.com/lampu-dan-tombol-flowchart-SQ7pCzLNtQN3rtj7nRtEFC
-![lampu-dan-tombol](./screenshots/lampu-dan-tombol_flowchart.png)  
+### 2. Menghitung Grade Nilai
+Pada task ini, dibuat sebuah program untuk menghitung grade nilai mahasiswa dengan input nama mahasiswa menggunakan `scanf`  
 
-### 3. Install Golang  
-![gp-install](./screenshots/go_install.jpg)  
+Code :  
+![grade-nilai](./screenshots/grade_nilai_code.jpg) 
 
-### 4. Hello World!  
-Pada task ini, dibuat sebuah program golang yang akan memberikan output string "Hello World!". Instruksi yang akan diterapkan adalah go run, go build, go install
-Berikut kode dari program tersebut: 
-![gp-run](./screenshots/go_vscode.jpg)  
+Output :  
+![grade-nilai](./screenshots/grade_nilai_hasil.jpg)  
 
-Output :
-![gp-hello](./screenshots/go_hello.jpg)  
+### 3. Menghitung Faktor Bilangan
+Pada task ini, dibuat sebuah program untuk menghitung faktor dari sebuah bilangan dengan input menggunakan `scanf`  
+
+Code :  
+![faktor](./screenshots/faktor_bilangan_code.jpg) 
+
+Code :  
+![faktor](./screenshots/faktor_bilangan_hasil.jpg) 
+
