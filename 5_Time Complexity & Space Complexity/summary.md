@@ -6,7 +6,11 @@ Dalam materi ini, mempelajari:
 2. Space Complexity
 
 ### Time Complexity
-Time Complexity merupakan 
+Time Complexity menyatakan seberapa lama suatu algoritma berjalan saat runtime dari sebuah program. Bisa terlihat sebagai beapa banyak operasi dominan harus melakukan eksekusi nya. Complexity ini dinyatakan dengan Big-O notation. Beberapa Big-O notation yang biasa ditemui adalah :  
+1. O(1) : constat
+2. O(n) : linear
+3. O(log n) : logaritmic
+4. O(n^2) : quadratic
 
 ### Space Complexity
 
