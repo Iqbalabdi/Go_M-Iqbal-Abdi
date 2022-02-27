@@ -41,5 +41,5 @@ output :
 ![exponen-hasil](./screenshots/2_fast_exponen_hasil.jpg) 
 
 penjelasan :   
-time complexity pada program ini adalah O(log N) atau O(log `expo`). Karena program ini melakukan rekursi dengan selalu membagi 2 nilai exponen nya. sehingga travel yang dilakukan pada rekursi nya meningkat secara log(N).
+time complexity pada program ini adalah O(log N). Karena program ini melakukan rekursi dengan selalu membagi 2 nilai exponen nya. sehingga travel yang dilakukan pada rekursi nya meningkat secara log(N). N disini adalah variabel `expo` pada source code.
 
