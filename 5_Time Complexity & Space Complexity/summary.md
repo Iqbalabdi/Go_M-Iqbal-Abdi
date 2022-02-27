@@ -29,7 +29,7 @@ output :
 ![prime-hasil](./screenshots/1_prime_number_hasil.jpg) 
 
 penjelasan :  
-time complexity pada program ini adalah O(sqrt(N)). Karena program ini mengunakan for loop dengan melooping secara kuadratic sebelum nilai loop tersebut melebihi nilai input. Karena travel yang dilakukan pada loop secara quadratic, sehingga waktu yang dibutuhkan untuk menentukan prime number pada program ini berkurang hingga sqrt(N)
+time complexity pada program ini adalah O(sqrt(N)). Karena program ini mengunakan for loop dengan melooping secara exponential sebelum nilai loop tersebut melebihi nilai input. Karena travel yang dilakukan pada loop secara exponential, sehingga waktu yang dibutuhkan untuk menentukan prime number pada program ini berkurang hingga sqrt(N)
 
 ### 2. Menentukan nilai exponential
 Pada task ini, dirancang sebuah program untuk menghitung nilai exponential dari sebuah bilangan dengan kompleksitas lebih cepat dari O(n)
