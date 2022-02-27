@@ -13,18 +13,20 @@ Time Complexity menyatakan seberapa lama suatu algoritma berjalan saat runtime d
 4. O(n^2) : quadratic
 
 Berikut merupakan grafik dari perbandingan beberapa Big-O notation :  
-![image](https://user-images.githubusercontent.com/75016595/155878595-3fc1490c-e888-40a0-ab46-8d5143718ea5.png)
+![image](https://user-images.githubusercontent.com/75016595/155878783-4ea77ca9-7451-4809-a04c-72b13423cab4.png)
 
 ### Space Complexity
-Space complexity menyatakan seberapa besar alokasi memory yang diperlukan untuk menjalankan program. Pada space complexity, notasi yang digunakan sama dengan time complexity yaitu menggunakan Big-O notation. N pada space complexity menyatakan seberapa banyak variabel yang digunakan pada program
+Space complexity menyatakan seberapa besar alokasi memory yang diperlukan untuk menjalankan program. Pada space complexity, notasi yang digunakan sama dengan time complexity yaitu menggunakan Big-O notation.
 
 ## Task
 ### 1. Menentukan bilangan prima
-Pada task ini, dirancang sebuah program untuk menghitung menentukan seb
+Pada task ini, dirancang sebuah program untuk menghitung menentukan sebuah bilangan prima dengan komplexitas lebih cepat dari O(n) atau O(n/2)
 
-Link : https://whimsical.com/prime-number-flowchart-TdC4aSTNrrtcH54Mh7FVi1  
-![bilangan-prima](./screenshots/prime-number_flowchart.png){ width=50% }  
+source code :  
+![prime-number](./screenshots/1_prime number_code.png)
 
+output :  
+![prime-number](./screenshots/1_prime number_hasil.png) 
 ### 2. Menentukan nilai exponential
 Pada task ini, dibuat sebuah flowchart yang menggambarkan algoritma untuk menentukan keadaan sebuah lampu (hidup/mati) 
 Berikut gambar flowchart problem Lampu-dan-tombol:
