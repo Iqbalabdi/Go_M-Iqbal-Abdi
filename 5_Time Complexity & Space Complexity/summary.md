@@ -23,17 +23,17 @@ Space complexity menyatakan seberapa besar alokasi memory yang diperlukan untuk 
 Pada task ini, dirancang sebuah program untuk menentukan sebuah bilangan prima dengan komplexitas lebih cepat dari O(n) atau O(n/2)
 
 source code :  
-![prime-number](./screenshots/1_prime number_code.jpg)
+![prime-code](./screenshots/1_prime number_code.jpg)
 
 output :  
-![prime-number](./screenshots/1_prime number_hasil.jpg) 
+![prime-hasil](./screenshots/1_prime number_hasil.jpg) 
 
 ### 2. Menentukan nilai exponential
 Pada task ini, dirancang sebuah program untuk menghitung nilai exponential dari sebuah bilangan dengan kompleksitas lebih cepat dari O(n)
 
 source code :  
-![prime-number](./screenshots/2_fast exponen_code.jpg)
+![exponen-code](./screenshots/2_fast exponen_code.jpg)
 
 output :  
-![prime-number](./screenshots/2_fast exponen_hasil.jpg) 
+![exponen-hasil](./screenshots/2_fast exponen_hasil.jpg) 
 
