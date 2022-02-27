@@ -20,16 +20,20 @@ Space complexity menyatakan seberapa besar alokasi memory yang diperlukan untuk 
 
 ## Task
 ### 1. Menentukan bilangan prima
-Pada task ini, dirancang sebuah program untuk menghitung menentukan sebuah bilangan prima dengan komplexitas lebih cepat dari O(n) atau O(n/2)
+Pada task ini, dirancang sebuah program untuk menentukan sebuah bilangan prima dengan komplexitas lebih cepat dari O(n) atau O(n/2)
 
 source code :  
-![prime-number](./screenshots/1_prime number_code.png)
+![prime-number](./screenshots/1_prime number_code.jpg)
 
 output :  
-![prime-number](./screenshots/1_prime number_hasil.png) 
-### 2. Menentukan nilai exponential
-Pada task ini, dibuat sebuah flowchart yang menggambarkan algoritma untuk menentukan keadaan sebuah lampu (hidup/mati) 
-Berikut gambar flowchart problem Lampu-dan-tombol:
+![prime-number](./screenshots/1_prime number_hasil.jpg) 
 
-Link : https://whimsical.com/lampu-dan-tombol-flowchart-SQ7pCzLNtQN3rtj7nRtEFC
-![lampu-dan-tombol](./screenshots/lampu-dan-tombol_flowchart.png)  
+### 2. Menentukan nilai exponential
+Pada task ini, dirancang sebuah program untuk menghitung nilai exponential dari sebuah bilangan dengan kompleksitas lebih cepat dari O(n)
+
+source code :  
+![prime-number](./screenshots/2_fast exponen_code.jpg)
+
+output :  
+![prime-number](./screenshots/2_fast exponen_hasil.jpg) 
+
