@@ -36,5 +36,6 @@ func munculSekali(angka string) []int {
 
 func main() {
 	fmt.Println(munculSekali("1234123"))
+	fmt.Println(munculSekali("76523752"))
 	fmt.Println(munculSekali("1122334455"))
 }
