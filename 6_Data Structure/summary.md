@@ -52,4 +52,4 @@ output :
 ![pairTarget](./screenshots/3_pair_target_hasil.jpg)
 
 penjelasan :   
-Program ini menggunakan variabel `low` dan `high` untuk menentukan index dari setiap elemen yang akan ditambahkan. Jika element yang ditambahkan nilainya belum sama dengan target maka value `low` akan ditambah dan value `high` akan dikurang. Hal ini terus berlanjut hingga nilai dari `low` dan `high` dapat menentukan index yang elemen nya jika ditambahkan nilai nya = target. Karena program ini menggunakan satu `for loop` sehingga compleksitas dari program ini adalah O(n)
+Program ini menggunakan variabel `low` dan `high` untuk menentukan index dari setiap elemen yang akan ditambahkan. Jika element yang ditambahkan nilainya belum sama dengan target maka value `low` akan ditambah dan value `high` akan dikurang. Hal ini terus berlanjut hingga nilai dari `low` dan `high` dapat menentukan index yang elemen nya jika ditambahkan nilai nya == target. Karena program ini menggunakan satu `for loop` sehingga compleksitas dari program ini adalah O(n)
