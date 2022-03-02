@@ -5,19 +5,32 @@ Dalam materi ini, mempelajari:
 1. String
 2. Advance Function
 3. Pointer
-4. Method
-5. Struct
+4. Struct
+5. Method
 
-### Array
-Array adalah kumpulan data bertipe sama, yang disimpan dalam sebuah variabel. Array memiliki kapasitas yang nilainya ditentukan pada saat pembuatan, menjadikan elemen/data yang disimpan di array tersebut jumlahnya tidak boleh melebihi yang sudah dialokasikan. Default nilai tiap elemen array pada awalnya tergantung dari tipe datanya. Setiap elemen array memiliki indeks berupa angka yang merepresentasikan posisi urutan elemen tersebut. Indeks array dimulai dari 0.
+### String
+Ada beberapa fungsi strings pada golang yang biasa dipakai untuk mengolah sebuah strings, yaitu:  
+1. len = untuk menentukan panjang sebuah string
+2. compare = untuk melakukan comparasi dari 2 buah string
+3. contain = untuk menentukan apakah sebuah string merupakan sebuah substring dari string yang lain
 
-### Slice
-Slice adalah reference elemen array. Slice bisa dibuat, atau bisa juga dihasilkan dari manipulasi sebuah array ataupun slice lainnya. Karena merupakan data reference, menjadikan perubahan data di tiap elemen slice akan berdampak pada slice lain yang memiliki alamat memori yang sama.
+### Advance Function
+advance function merupakan sebuah konsep function pada golang yang lebih advance dibanding function yang biasa. ada beberapa advance function yang dipelajari, yaitu:  
+1. variadic function
+2. anonymous function
+3. closure function
+4. defer function
 
-### Map
-Map adalah tipe data asosiatif yang ada di Go, berbentuk key-value pair. Untuk setiap data (atau value) yang disimpan, disiapkan juga key-nya. Key harus unik, karena digunakan sebagai penanda (atau identifier) untuk pengaksesan value yang bersangkutan.
+### Pointer
+Konsep pointer sangat penting dari sebuah bahasa pemrograman karena dapat memanipulasi sebuah variabel data pada memori. Ada 2 syntax yang harus dipahami dari pointer, yaitu:  
+1. * (asterisk) = menandakan nilai dari sebuah variabel
+2. & (ampersand) = menandakan alamat dari sebuah variabel
 
-Map terlihat seperti `slice`, hanya saja indeks yang digunakan untuk pengaksesan bisa ditentukan sendiri tipe-nya (indeks tersebut adalah key).
+### Struct
+Struct merupakan sebuah tipe data yang didefinisikan oleh user sendiri yang berisi koleksi dari fields/properties
+
+### Method
+Method merupakan sebuah fungsi yang menempel pada sebuah tipe data (bisa struct atau tipe data lainnya)
 
 ## Task
 ### 1. Compare String
