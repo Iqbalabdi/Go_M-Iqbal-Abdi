@@ -68,3 +68,9 @@ source code :
 
 output :  
 ![min_max](./screenshots/4_min_max_hasil.jpg)
+
+### 5. Students Score
+Coming Soon
+
+### 6. Subtitution Cipher
+Coming Soon
