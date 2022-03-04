@@ -81,6 +81,7 @@ func lcm(a int, b int) int {
 ## F. Queue
 - `FIFO` *first in first out* seperti mengantre
 - Operasi dasar
+- 
 |Operasi|Deskripsi|
 |---|---|
 |`.enqueue()`|memasukan elemen|
