@@ -70,7 +70,19 @@ output :
 ![min_max](./screenshots/4_min_max_hasil.jpg)
 
 ### 5. Students Score
-Coming Soon
+Pada task ini, dirancang sebuah program untuk menghitung rata-rata, nilai terendah dan nilai tertinggi dari sebuah struct
+
+source code :  
+![stud_score](./screenshots/5_students_score_code.jpg)
+
+output :  
+![stud_score](./screenshots/5_students_score_hasil.jpg)
 
 ### 6. Subtitution Cipher
-Coming Soon
+Pada task ini, dirancang sebuah program untuk melakukan enkripsi dan dekripsi dari sebuah string
+
+source code :  
+![subs_cipher](./screenshots/6_subs_cipher_code.jpg)
+
+output :  
+![subs_cipher](./screenshots/6_subs_cipher_hasil.jpg)
