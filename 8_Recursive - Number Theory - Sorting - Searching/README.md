@@ -117,3 +117,9 @@ func lcm(a int, b int) int {
 - Keduanya dapat diimplementasikan secara *ordered* maupun *unordered*
 
 # Praktikum
+## 1. Prima ke-x
+
+source code:  
+[Source code](./praktikum/2_Fibonacci/fibonacci.go)
+
+
