@@ -6,6 +6,8 @@
 # Resume
 
 ## A. Brute Force
+## B. Greedy
+## C. Divide and Conquer
 
 # Praktikum
 ## 1. Simple Equations
