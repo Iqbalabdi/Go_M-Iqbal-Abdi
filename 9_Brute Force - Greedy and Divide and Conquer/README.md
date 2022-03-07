@@ -19,6 +19,9 @@ Contoh algoritma greedy :
 
 ## C. Divide and Conquer
 D&C adalah sebuah algoritma yang menyelesaikan sebuah problem dengan membagi-bagi problem tersebut menjadi parts yang lebih kecil dam masalah kecil tersebut akan diselesaikan secara bertahap
+- Divide : membagi masalah yang besar menjadi masalah yang lebih kecil
+- Conquer : Masalah yang sudah cukup kecil untuk diselesaikan, segera diselesaikan
+- Combine : Jika dibutuhkan maka perlu menggabungkan solusi dari masalah2 yang lebih kecil menjadi solusi untuk masalah yang besar  
 
 # Praktikum
 ## 1. Simple Equations
