@@ -4,8 +4,15 @@
 - [Praktikum](#praktikum)
 
 # Resume
+## Dynamic Programming
+Dynamic Programming (DP) merupakan sebuah teknik algoritma dimana untuk menyelesaikan sebuah masalah optimasi dengan memecah nya menjadi subproblem yang lebih simpel dan menyadari fakta bahwa solusi optimal dari keseluruhan bergantung kepada solusi optimal dari subproblem nya
+Karakteristik DP :
+1. Overlapping Subproblems
+2. Optimal Substructure Property
 
-## A. Brute Force
+Metode DP :
+1. Top-down Memoization
+3. Down-Top Memoization
 
 # Praktikum
 ## 1. Fibonacci Number Top Down
