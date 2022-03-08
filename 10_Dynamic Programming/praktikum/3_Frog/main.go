@@ -13,22 +13,21 @@ func min(a, b int) int {
 
 func Frog(jumps []int) int {
   // your code here
-	var minimum_cost = make([]int, len(jumps))
-	// minimum_cost[1] = int(math.Abs(float64(jumps[1])-float64(jumps[0])))
-	for i:= 3; i<=len(jumps); i++ {
-		for j :=
-	//   jumps1 := minimum_cost[i - 1]  + int(math.Abs(float64(jumps[i]) - float64(jumps[i - 1]))) //40
-	//   jumps2 := minimum_cost[i - 2]  + int(math.Abs(float64(jumps[i]) - float64(jumps[i - 2]))) //
-	//   if jumps1 < jumps2 {
-	// 	  minimum_cost = append(minimum_cost, jumps1)
-	//   } else {
-	// 	  minimum_cost = append(minimum_cost, jumps2)
-	//   }
-		minimum_cost[i] = min(minimum_cost[i - 1] + int(math.Abs(float64(jumps[i]) - float64(jumps[i - 1]))),
-                              minimum_cost[i - 2] + int(math.Abs(float64(jumps[i]) - float64(jumps[i - 2]))))
-  }
-
-	return minimum_cost[len(jumps)-1]
+  lenArr := len(jumps)
+	var minimum_cost = make([]int, lenArr)
+	for i := range minimum_cost {
+		minimum_cost[i] = 10000
+	}
+	// fmt.Println(minimum_cost)
+	minimum_cost[0] = 0
+	for i:=0; i<lenArr; i++ {
+		for j:=i+1; j<=i+2; j++ {
+			if (j<lenArr) {
+				minimum_cost[j] = min(minimum_cost[j], minimum_cost[i]+int(math.Abs(float64(jumps[i])-float64(jumps[j]))))
+			}
+		}
+	}
+	return minimum_cost[lenArr-1]
 }
 
 
