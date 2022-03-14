@@ -15,5 +15,5 @@ Berikut merupakan ERD outlet pulsa:
 ## 2. Data Definition Language
 Pada task ini, saya diharuskan untuk membuat sebuah DDL dari diagram ERD sebelumnya
 
-Berikut merupakan source code `sql` penerapan DDL
+Berikut merupakan source code `sql` penerapan DDL  
 [Source code](./praktikum/outlet_pulsa.sql)
