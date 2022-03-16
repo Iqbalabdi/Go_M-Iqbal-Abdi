@@ -29,4 +29,10 @@ Pada task ini, saya diharuskan menampilkan query sesuai perintah
 ### f. Tampilkan 5 data pada product
 ![Select](./screenshots/2_f.jpg)
 
+## 3. Update
+Pada task ini, saya diharuskan melakukan update pada data yang sudah di insert
+
+### a. Ubah data product_id = 1 dengan "product_dummy"
+![Select](./screenshots/3_a.jpg)
+
 
