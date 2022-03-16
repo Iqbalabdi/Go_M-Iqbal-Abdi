@@ -9,7 +9,7 @@
 ## 1. Insert
 Pada task ini, saya diharuskan melakukan insert pada tabel yang sudah dibuat
 
-Berikut merupakan source code insert
+Berikut merupakan source code insert  
 [Source code](./praktikum/outlet_pulsa.sql)
 
 ## 2. Select
