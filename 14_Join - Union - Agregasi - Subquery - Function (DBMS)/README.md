@@ -9,7 +9,7 @@
 ## 1. Insert
 Pada task ini, saya diharuskan melakukan insert pada tabel yang sudah dibuat
 
-Berikut merupakan source code insert
+Berikut merupakan source code insert  
 [Source code](./praktikum/outlet_pulsa.sql)
 
 ## 2. Select
@@ -34,5 +34,19 @@ Pada task ini, saya diharuskan melakukan update pada data yang sudah di insert
 
 ### a. Ubah data product_id = 1 dengan "product_dummy"
 ![Select](./screenshots/3_a.jpg)
+
+## JOIN, Union, Sub Query, Function
+
+### 1. gabungkan data transaksi user id = 1 dan id = 2
+![Select](./screenshots/union_1.jpg)
+
+### 2. Tampilkan jumlah harga transaksi user id = 1
+![Select](./screenshots/union_2.jpg)
+
+### 3. Tampilkan total transaksi dengan product type = 2
+![Select](./screenshots/union_3.jpg)
+
+### 4. Tampilkan semua field table product dan field name product_type yang saling berhubungan
+![Select](./screenshots/union_4.jpg)
 
 
