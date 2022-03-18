@@ -34,8 +34,6 @@
 |`graph`|Struktur data dengan network yang dihubungkan dengan `node`, misal Social Network Analysis|
 |`document-based`|Kumpulan dokumen (data sebagai dokumen) sejenis, misal unstructured data: loging (elastic search,MongoDB)|
 
-![hasil](./screenshots/NoSql.png)
-
 _redis, elastic, dan mongo biasa digunakan (cassandra untuk logging)_
 
 ## C. MongoDB
@@ -92,9 +90,7 @@ db.collectionName.delete(One||Many)({query})
 
 ### a. 5 operator
 
-[source_code](./praktikum/operators.json)
-
-```js
+```
 db.operators.insertMany([
   {
     _id:1,
@@ -131,9 +127,7 @@ db.operators.insertMany([
 
 ### b. 3 product type
 
-![hasil](./screenshots/1-b.png)
-
-```js
+```
 db.product_types.insertMany([
   {
     _id:1,
@@ -158,9 +152,7 @@ db.product_types.insertMany([
 
 ### c. 2 product dengan type id 1 dan operator 3
 
-![hasil](./screenshots/1-c.png)
-
-```js
+```
 db.products.insertMany([
   {
     _id:1,
@@ -187,9 +179,7 @@ db.products.insertMany([
 
 ### d. 3 product dengan type id 2 dan operator 1
 
-![hasil](./screenshots/1-d.png)
-
-```js
+```
 db.products.insertMany([
   {
     _id:3,
@@ -226,9 +216,7 @@ db.products.insertMany([
 
 ### e. 3 product dengan type id 3 dan operator 4
 
-![hasil](./screenshots/1-e.png)
-
-```js
+```
 db.products.insertMany([
   {
     _id:6,
@@ -264,9 +252,7 @@ db.products.insertMany([
 ```
 ### f. deskripsi produk
 
-![hasil](./screenshots/1-f.png)
-
-```js
+```
 db.product_descriptions.insertMany([
   {
     _id:1,
@@ -328,9 +314,7 @@ db.product_descriptions.insertMany([
 ```
 ### g. 3 payment method
 
-![hasil](./screenshots/1-g.png)
-
-```js
+```
 db.payment_methods.insertMany([
   {
     _id:1,
@@ -357,9 +341,7 @@ db.payment_methods.insertMany([
 ```
 ### h. 5 user
 
-![hasil](./screenshots/1-h.png)
-
-```js
+```
 db.users.insertMany([
   {
     _id:1,
@@ -410,9 +392,7 @@ db.users.insertMany([
 ```
 ### i. 3 transkasi per user
 
-![hasil](./screenshots/1-i.png)
-
-```js
+```
 db.transactions.insertMany([
   {
     _id:1,
@@ -568,9 +548,7 @@ db.transactions.insertMany([
 ```
 ### j. 3 produk per transaksi
 
-![hasil](./screenshots/1-j.png)
-
-```js
+```
 db.transaction_details.insertMany([
   {
     _id:1,
@@ -1029,72 +1007,73 @@ db.transaction_details.insertMany([
 
 ### a. Tampilkan user laki
 
-![hasil](./screenshots/2-a.png)
-
-```js
+```
 db.users.find({gender: {$eq:'M'}});
 ```
+
+![hasil](./screenshots/2-a.png)  
+
 ### b. produk dengan id 3
+
+```
+db.products.find({_id: {$eq:3}});
+```
 
 ![hasil](./screenshots/2-b.png)
 
-```js
-db.products.find({_id: {$eq:3}});
-```
 ### c. jumlah user perempuan
+
+```
+db.users.count({gender: {$eq: 'F'}});
+```
 
 ![hasil](./screenshots/2-c.png)
 
-```js
-db.users.count({gender: {$eq: 'F'}});
-```
 ### d. urutkan pengguna berdasarkan nama
+
+```
+db.users.find().sort( { name: 1 } );
+```
 
 ![hasil](./screenshots/2-d.png)
 
-```js
-db.users.find().sort( { name: 1 } );
-```
 ### e. tampilkan 5 data produk
 
-![hasil](./screenshots/2-e.png)
-
-```js
+```
 db.products.find().limit(5);
 ```
+
+![hasil](./screenshots/2-e.png)
 
 ## 3. Update
 
 ### a. update produk id 1 dengan nama baru
 
-![hasil](./screenshots/3-a.png)
-
-```js
+```
 db.products.update({_id:{$eq:1}},{$set:{name:'product dummy'}});
 ```
 
+![hasil](./screenshots/3-a.png)
+
 ### b. ubah jumalh produc id 1 pada detail transaksi menjadi 3
 
-![hasil](./screenshots/3-b.png)
-
-```js
+```
 db.transaction_details.updateMany({product_id:{$eq:3}},{$set:{qty:3}});
 ```
+![hasil](./screenshots/3-b.png)
 
 ## 4. Delete
 
 ### a. dokumen produk id 1
 
-![hasil](./screenshots/4-a.png)
-
-```js
+```
 db.products.deleteOne({_id:{$eq:1}});
 ```
+![hasil](./screenshots/4-a.png)
 
 ### b. hapus dokume produk denga tipe 1
 
-![hasil](./screenshots/4-b.png)
-
-```js
+```
 db.products.deleteMany({type_id:{$eq:1}});
 ```
+![hasil](./screenshots/4-b.png)
