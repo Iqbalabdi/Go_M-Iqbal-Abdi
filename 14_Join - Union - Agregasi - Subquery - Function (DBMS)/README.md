@@ -49,4 +49,7 @@ Pada task ini, saya diharuskan melakukan update pada data yang sudah di insert
 ### 4. Tampilkan semua field table product dan field name product_type yang saling berhubungan
 ![Select](./screenshots/union_4.jpg)
 
+### 8. Tampilkan data product yang tidak pernah ada di tabel transaction_detail dengan sub-query
+![Select](./screenshots/union_8.jpg)
+
 
