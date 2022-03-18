@@ -1,0 +1,856 @@
+[{
+  "_id": 1,
+  "transaction_id": 1,
+  "product_id": 1,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 69
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 70
+    }
+  }
+},{
+  "_id": 2,
+  "transaction_id": 1,
+  "product_id": 3,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 71
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 72
+    }
+  }
+},{
+  "_id": 3,
+  "transaction_id": 1,
+  "product_id": 6,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 73
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 74
+    }
+  }
+},{
+  "_id": 4,
+  "transaction_id": 2,
+  "product_id": 2,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 75
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 76
+    }
+  }
+},{
+  "_id": 5,
+  "transaction_id": 2,
+  "product_id": 4,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 77
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 78
+    }
+  }
+},{
+  "_id": 6,
+  "transaction_id": 2,
+  "product_id": 7,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 79
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 80
+    }
+  }
+},{
+  "_id": 7,
+  "transaction_id": 3,
+  "product_id": 1,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 81
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 82
+    }
+  }
+},{
+  "_id": 8,
+  "transaction_id": 3,
+  "product_id": 5,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 83
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 84
+    }
+  }
+},{
+  "_id": 9,
+  "transaction_id": 3,
+  "product_id": 8,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 85
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 86
+    }
+  }
+},{
+  "_id": 10,
+  "transaction_id": 4,
+  "product_id": 1,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 87
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 88
+    }
+  }
+},{
+  "_id": 11,
+  "transaction_id": 4,
+  "product_id": 3,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 89
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 90
+    }
+  }
+},{
+  "_id": 12,
+  "transaction_id": 4,
+  "product_id": 6,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 91
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 92
+    }
+  }
+},{
+  "_id": 13,
+  "transaction_id": 5,
+  "product_id": 2,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 93
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 94
+    }
+  }
+},{
+  "_id": 14,
+  "transaction_id": 5,
+  "product_id": 4,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 95
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 96
+    }
+  }
+},{
+  "_id": 15,
+  "transaction_id": 5,
+  "product_id": 7,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 97
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 98
+    }
+  }
+},{
+  "_id": 16,
+  "transaction_id": 6,
+  "product_id": 1,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 99
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 100
+    }
+  }
+},{
+  "_id": 17,
+  "transaction_id": 6,
+  "product_id": 5,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 101
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 102
+    }
+  }
+},{
+  "_id": 18,
+  "transaction_id": 6,
+  "product_id": 8,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 103
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 104
+    }
+  }
+},{
+  "_id": 19,
+  "transaction_id": 7,
+  "product_id": 1,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 105
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 106
+    }
+  }
+},{
+  "_id": 20,
+  "transaction_id": 7,
+  "product_id": 3,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 107
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 108
+    }
+  }
+},{
+  "_id": 21,
+  "transaction_id": 7,
+  "product_id": 6,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 109
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 110
+    }
+  }
+},{
+  "_id": 22,
+  "transaction_id": 8,
+  "product_id": 2,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 111
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 112
+    }
+  }
+},{
+  "_id": 23,
+  "transaction_id": 8,
+  "product_id": 4,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 113
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 114
+    }
+  }
+},{
+  "_id": 24,
+  "transaction_id": 8,
+  "product_id": 7,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 115
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 116
+    }
+  }
+},{
+  "_id": 25,
+  "transaction_id": 9,
+  "product_id": 1,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 50000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 117
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 118
+    }
+  }
+},{
+  "_id": 26,
+  "transaction_id": 9,
+  "product_id": 5,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 50000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 119
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 120
+    }
+  }
+},{
+  "_id": 27,
+  "transaction_id": 9,
+  "product_id": 8,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 50000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 121
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 122
+    }
+  }
+},{
+  "_id": 28,
+  "transaction_id": 10,
+  "product_id": 1,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 123
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 124
+    }
+  }
+},{
+  "_id": 29,
+  "transaction_id": 10,
+  "product_id": 3,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 125
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 126
+    }
+  }
+},{
+  "_id": 30,
+  "transaction_id": 10,
+  "product_id": 6,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 127
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 128
+    }
+  }
+},{
+  "_id": 31,
+  "transaction_id": 11,
+  "product_id": 2,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 129
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 130
+    }
+  }
+},{
+  "_id": 32,
+  "transaction_id": 11,
+  "product_id": 4,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 131
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 132
+    }
+  }
+},{
+  "_id": 33,
+  "transaction_id": 11,
+  "product_id": 7,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 133
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 134
+    }
+  }
+},{
+  "_id": 34,
+  "transaction_id": 12,
+  "product_id": 1,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 135
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 136
+    }
+  }
+},{
+  "_id": 35,
+  "transaction_id": 12,
+  "product_id": 5,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 137
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 138
+    }
+  }
+},{
+  "_id": 36,
+  "transaction_id": 12,
+  "product_id": 8,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 139
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 140
+    }
+  }
+},{
+  "_id": 37,
+  "transaction_id": 13,
+  "product_id": 1,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 141
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 142
+    }
+  }
+},{
+  "_id": 38,
+  "transaction_id": 13,
+  "product_id": 3,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 143
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 144
+    }
+  }
+},{
+  "_id": 39,
+  "transaction_id": 13,
+  "product_id": 6,
+  "status": "tersedia",
+  "qty": 1,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 145
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 146
+    }
+  }
+},{
+  "_id": 40,
+  "transaction_id": 14,
+  "product_id": 2,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 147
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 148
+    }
+  }
+},{
+  "_id": 41,
+  "transaction_id": 14,
+  "product_id": 4,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 149
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 150
+    }
+  }
+},{
+  "_id": 42,
+  "transaction_id": 14,
+  "product_id": 7,
+  "status": "tersedia",
+  "qty": 2,
+  "price": 10000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 151
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 152
+    }
+  }
+},{
+  "_id": 43,
+  "transaction_id": 15,
+  "product_id": 1,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 153
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 154
+    }
+  }
+},{
+  "_id": 44,
+  "transaction_id": 15,
+  "product_id": 5,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 155
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 156
+    }
+  }
+},{
+  "_id": 45,
+  "transaction_id": 15,
+  "product_id": 8,
+  "status": "tersedia",
+  "qty": 5,
+  "price": 5000,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 157
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 158
+    }
+  }
+}]

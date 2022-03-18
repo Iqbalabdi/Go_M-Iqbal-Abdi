@@ -1,0 +1,129 @@
+[{
+  "_id": 1,
+  "product_id": 1,
+  "description": "Nasi goreng kampung",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 7
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 8
+    }
+  }
+},{
+  "_id": 2,
+  "product_id": 2,
+  "description": "Mie goreng jawa dengan telur",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 9
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 10
+    }
+  }
+},{
+  "_id": 3,
+  "product_id": 3,
+  "description": "Air mineral 600ml",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 11
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 12
+    }
+  }
+},{
+  "_id": 4,
+  "product_id": 4,
+  "description": "Air mineral 300ml",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 13
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 14
+    }
+  }
+},{
+  "_id": 5,
+  "product_id": 5,
+  "description": "Teh botol 50ml",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 15
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 16
+    }
+  }
+},{
+  "_id": 6,
+  "product_id": 6,
+  "description": "Kripik kentang rumput laut",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 17
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 18
+    }
+  }
+},{
+  "_id": 7,
+  "product_id": 7,
+  "description": "Kripik singkong barberkyu",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 19
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 20
+    }
+  }
+},{
+  "_id": 8,
+  "product_id": 8,
+  "description": "Kripik kentang barberkyu",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 21
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 22
+    }
+  }
+}]

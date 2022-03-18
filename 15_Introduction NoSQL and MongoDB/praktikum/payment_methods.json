@@ -1,0 +1,49 @@
+[{
+  "_id": 1,
+  "name": "Transfer",
+  "status": 1,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 23
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 24
+    }
+  }
+},{
+  "_id": 2,
+  "name": "Call order delivery",
+  "status": 1,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 25
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 26
+    }
+  }
+},{
+  "_id": 3,
+  "name": "Virtual account",
+  "status": 1,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 27
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 28
+    }
+  }
+}]

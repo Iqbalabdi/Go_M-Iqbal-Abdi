@@ -1,0 +1,46 @@
+[{
+  "_id": 1,
+  "name": "Makanan",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647593899,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647593899,
+      "i": 2
+    }
+  }
+},{
+  "_id": 2,
+  "name": "Minuman",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647593899,
+      "i": 3
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647593899,
+      "i": 4
+    }
+  }
+},{
+  "_id": 3,
+  "name": "Snack",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647593899,
+      "i": 5
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647593899,
+      "i": 6
+    }
+  }
+}]

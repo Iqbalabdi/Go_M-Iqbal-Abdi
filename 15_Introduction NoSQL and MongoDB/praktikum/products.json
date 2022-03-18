@@ -1,0 +1,153 @@
+[{
+  "_id": 1,
+  "name": "Nasi Goreng",
+  "type_id": 1,
+  "operator_id": 3,
+  "code": "101",
+  "status": 1,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647593940,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647593940,
+      "i": 2
+    }
+  }
+},{
+  "_id": 2,
+  "name": "Mie Goreng",
+  "type_id": 1,
+  "operator_id": 3,
+  "code": "102",
+  "status": 1,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647593940,
+      "i": 3
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647593940,
+      "i": 4
+    }
+  }
+},{
+  "_id": 3,
+  "name": "Aqua",
+  "type_id": 2,
+  "operator_id": 1,
+  "code": "201",
+  "status": 1,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647593966,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647593966,
+      "i": 2
+    }
+  }
+},{
+  "_id": 4,
+  "name": "Ades",
+  "type_id": 2,
+  "operator_id": 1,
+  "code": "202",
+  "status": 1,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647593966,
+      "i": 3
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647593966,
+      "i": 4
+    }
+  }
+},{
+  "_id": 5,
+  "name": "Teh Botol",
+  "type_id": 2,
+  "operator_id": 1,
+  "code": "203",
+  "status": 1,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647593966,
+      "i": 5
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647593966,
+      "i": 6
+    }
+  }
+},{
+  "_id": 6,
+  "name": "Lays",
+  "type_id": 3,
+  "operator_id": 4,
+  "code": "301",
+  "status": 1,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 1
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 2
+    }
+  }
+},{
+  "_id": 7,
+  "name": "Doritos",
+  "type_id": 3,
+  "operator_id": 4,
+  "code": "302",
+  "status": 1,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 3
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 4
+    }
+  }
+},{
+  "_id": 8,
+  "name": "Citato",
+  "type_id": 3,
+  "operator_id": 4,
+  "code": "303",
+  "status": 1,
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 5
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 6
+    }
+  }
+}]

@@ -1,0 +1,101 @@
+[{
+  "_id": 1,
+  "name": "AB",
+  "status": 1,
+  "dob": {
+    "$date": "2000-07-30T00:00:00Z"
+  },
+  "gender": "M",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 29
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 30
+    }
+  }
+},{
+  "_id": 2,
+  "name": "BC",
+  "status": 1,
+  "dob": {
+    "$date": "2000-07-30T00:00:00Z"
+  },
+  "gender": "F",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 31
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 32
+    }
+  }
+},{
+  "_id": 3,
+  "name": "CD",
+  "status": 1,
+  "dob": {
+    "$date": "2000-07-30T00:00:00Z"
+  },
+  "gender": "M",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 33
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 34
+    }
+  }
+},{
+  "_id": 4,
+  "name": "DE",
+  "status": 1,
+  "dob": {
+    "$date": "2000-07-30T00:00:00Z"
+  },
+  "gender": "F",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 35
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 36
+    }
+  }
+},{
+  "_id": 5,
+  "name": "EF",
+  "status": 1,
+  "dob": {
+    "$date": "2000-07-30T00:00:00Z"
+  },
+  "gender": "M",
+  "created_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 37
+    }
+  },
+  "updated_at": {
+    "$timestamp": {
+      "t": 1647594073,
+      "i": 38
+    }
+  }
+}]
