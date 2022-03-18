@@ -90,7 +90,7 @@ db.collectionName.delete(One||Many)({query})
 
 ### a. 5 operator
 
-```
+```js
 db.operators.insertMany([
   {
     _id:1,
@@ -127,7 +127,7 @@ db.operators.insertMany([
 
 ### b. 3 product type
 
-```
+```js
 db.product_types.insertMany([
   {
     _id:1,
@@ -152,7 +152,7 @@ db.product_types.insertMany([
 
 ### c. 2 product dengan type id 1 dan operator 3
 
-```
+```js
 db.products.insertMany([
   {
     _id:1,
@@ -179,7 +179,7 @@ db.products.insertMany([
 
 ### d. 3 product dengan type id 2 dan operator 1
 
-```
+```js
 db.products.insertMany([
   {
     _id:3,
@@ -216,7 +216,7 @@ db.products.insertMany([
 
 ### e. 3 product dengan type id 3 dan operator 4
 
-```
+```js
 db.products.insertMany([
   {
     _id:6,
@@ -252,7 +252,7 @@ db.products.insertMany([
 ```
 ### f. deskripsi produk
 
-```
+```js
 db.product_descriptions.insertMany([
   {
     _id:1,
@@ -314,7 +314,7 @@ db.product_descriptions.insertMany([
 ```
 ### g. 3 payment method
 
-```
+```js
 db.payment_methods.insertMany([
   {
     _id:1,
@@ -341,7 +341,7 @@ db.payment_methods.insertMany([
 ```
 ### h. 5 user
 
-```
+```js
 db.users.insertMany([
   {
     _id:1,
@@ -392,7 +392,7 @@ db.users.insertMany([
 ```
 ### i. 3 transkasi per user
 
-```
+```js
 db.transactions.insertMany([
   {
     _id:1,
@@ -548,7 +548,7 @@ db.transactions.insertMany([
 ```
 ### j. 3 produk per transaksi
 
-```
+```js
 db.transaction_details.insertMany([
   {
     _id:1,
@@ -1007,49 +1007,49 @@ db.transaction_details.insertMany([
 
 ### a. Tampilkan user laki
 
-```
+```js
 db.users.find({gender: {$eq:'M'}});
 ```
 
-![hasil](./screenshots/2-a.png)  
+![hasil](./screenshots/2_a.jpg)  
 
 ### b. produk dengan id 3
 
-```
+```js
 db.products.find({_id: {$eq:3}});
 ```
 
-![hasil](./screenshots/2-b.png)
+![hasil](./screenshots/2_b.jpg)
 
 ### c. jumlah user perempuan
 
-```
+```js
 db.users.count({gender: {$eq: 'F'}});
 ```
 
-![hasil](./screenshots/2-c.png)
+![hasil](./screenshots/2_c.jpg)
 
 ### d. urutkan pengguna berdasarkan nama
 
-```
+```js
 db.users.find().sort( { name: 1 } );
 ```
 
-![hasil](./screenshots/2-d.png)
+![hasil](./screenshots/2_d.jpg)
 
 ### e. tampilkan 5 data produk
 
-```
+```js
 db.products.find().limit(5);
 ```
 
-![hasil](./screenshots/2-e.png)
+![hasil](./screenshots/2_e.jpg)
 
 ## 3. Update
 
 ### a. update produk id 1 dengan nama baru
 
-```
+```js
 db.products.update({_id:{$eq:1}},{$set:{name:'product dummy'}});
 ```
 
@@ -1057,7 +1057,7 @@ db.products.update({_id:{$eq:1}},{$set:{name:'product dummy'}});
 
 ### b. ubah jumalh produc id 1 pada detail transaksi menjadi 3
 
-```
+```js
 db.transaction_details.updateMany({product_id:{$eq:3}},{$set:{qty:3}});
 ```
 ![hasil](./screenshots/3-b.png)
@@ -1066,14 +1066,14 @@ db.transaction_details.updateMany({product_id:{$eq:3}},{$set:{qty:3}});
 
 ### a. dokumen produk id 1
 
-```
+```js
 db.products.deleteOne({_id:{$eq:1}});
 ```
 ![hasil](./screenshots/4-a.png)
 
 ### b. hapus dokume produk denga tipe 1
 
-```
+```js
 db.products.deleteMany({type_id:{$eq:1}});
 ```
 ![hasil](./screenshots/4-b.png)
