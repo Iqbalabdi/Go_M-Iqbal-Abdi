@@ -92,7 +92,7 @@ db.collectionName.delete(One||Many)({query})
 
 ### a. 5 operator
 
-![hasil](./screenshots/1-a.png)
+[source_code](./praktikum/operators.json)
 
 ```js
 db.operators.insertMany([
