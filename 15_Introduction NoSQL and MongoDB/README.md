@@ -1053,14 +1053,14 @@ db.products.find().limit(5);
 db.products.update({_id:{$eq:1}},{$set:{name:'product dummy'}});
 ```
 
-![hasil](./screenshots/3-a.png)
+![hasil](./screenshots/3-a.jpg)
 
 ### b. ubah jumalh produc id 1 pada detail transaksi menjadi 3
 
 ```js
 db.transaction_details.updateMany({product_id:{$eq:3}},{$set:{qty:3}});
 ```
-![hasil](./screenshots/3-b.png)
+![hasil](./screenshots/3-b.jpg)
 
 ## 4. Delete
 
@@ -1069,11 +1069,11 @@ db.transaction_details.updateMany({product_id:{$eq:3}},{$set:{qty:3}});
 ```js
 db.products.deleteOne({_id:{$eq:1}});
 ```
-![hasil](./screenshots/4-a.png)
+![hasil](./screenshots/4-a.jpg)
 
 ### b. hapus dokume produk denga tipe 1
 
 ```js
 db.products.deleteMany({type_id:{$eq:1}});
 ```
-![hasil](./screenshots/4-b.png)
+![hasil](./screenshots/4-b.jpg)
