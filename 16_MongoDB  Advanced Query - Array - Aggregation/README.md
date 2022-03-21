@@ -33,6 +33,7 @@ db.books.aggregate([
 ```
 
 Hasil :  
+![hasil](./screenshots/3.jpg)  
 
 ### 4. Tampilkan semua field books and authors terkait.
 ```js
@@ -48,6 +49,7 @@ Hasil :
  ])
 ```
 Hasil :  
+![hasil](./screenshots/4.jpg)  
 
 ### 5. Tampilkan semua field books, authors, dan publishers terkait.
 ```js
@@ -72,6 +74,7 @@ Hasil :
 ```
 
 Hasil :  
+![hasil](./screenshots/5.jpg)  
 
 ### 7. Tampilkan semua field books, authors, dan publishers terkait.
 ```js
@@ -110,3 +113,41 @@ db.books.aggregate([
  ])
 ```
 Hasil :  
+ 
+### 8. Tampilkan data nama buku harga dan publisher, kemudian tampilkan hanya data ke 3 dan ke 4.
+```js
+ db.books.aggregate([
+     {
+        $lookup : {
+            from : "authors",
+            localField: "authorID",
+            foreignField: "_id",
+            as: "author"
+        }
+     },
+     {
+        $lookup : {
+            from : "publishers",
+            localField: "publisherID",
+            foreignField: "_id",
+            as: "publishers"
+        }
+     },
+     {
+       $project : {
+         _id : 1,
+         title: 1,
+         price : 1,
+         publisher: "$publishers.publisherName"
+       }
+     },
+     {
+       $skip: 2
+     },
+     {
+       $limit: 2
+     }
+ ])
+```
+Hasil :  
+![hasil](./screenshots/8.jpg)   
