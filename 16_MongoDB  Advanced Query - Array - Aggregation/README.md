@@ -11,6 +11,7 @@
 db.books.aggregate( {$match: {authorID: {$in: [1,2]}} } )
 ```
 Hasil :  
+![hasil](./screenshots/1.jpg)  
 
 ### 2. Tampilkan daftar buku dan harga author id 1.
 ```js
@@ -21,5 +22,6 @@ db.books.aggregate([
 ```
 
 Hasil :  
+![hasil](./screenshots/2.jpg)  
 
 ### 3. Tampilan total jumlah halaman buku author id 2.
