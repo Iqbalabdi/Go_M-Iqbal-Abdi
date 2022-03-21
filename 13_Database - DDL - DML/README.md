@@ -18,6 +18,20 @@ Ada beberapa jenis perintah SQL, yaitu :
 2. DML (Data Definition Language)
 3. DCL (Data control language)
 
+Contoh beberapa perintah SQL
+DDL :
+- Create Database
+- Use database
+- Create table
+- Drop table
+- Rename Table
+
+DML :
+- Insert
+- Select
+- Update
+- Delete
+
 ## Praktikum
 ### 1. Database Relational : Implement schema (Digital Outlet Pulsa)
 Pada task ini, saya diharuskan untuk membuat sebuah ERD (Entity Relational Diagram) dari kasus outlet pulsa
