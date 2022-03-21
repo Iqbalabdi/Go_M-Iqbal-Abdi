@@ -25,3 +25,9 @@ Hasil :
 ![hasil](./screenshots/2.jpg)  
 
 ### 3. Tampilan total jumlah halaman buku author id 2.
+```js
+db.books.aggregate([
+    {$group: {_id: "$authorID", totalPages: {$sum: "$stats.page"}}},
+    {$match : {_id : 2}}
+]);
+```
