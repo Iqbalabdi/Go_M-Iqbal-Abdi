@@ -7,7 +7,7 @@
 
 ## Praktikum
 ### 1. Install Oh-my-zsh
-![hasil](./screenshots/zsh.jpg)  
+![hasil](./screenshots/shell.jpg)  
 
 ### 2. Create Automation script
 Berikut code untuk melakukan automation script  
