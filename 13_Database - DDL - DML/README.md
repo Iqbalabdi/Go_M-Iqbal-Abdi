@@ -18,7 +18,7 @@ Ada beberapa jenis perintah SQL, yaitu :
 2. DML (Data Definition Language)
 3. DCL (Data control language)
 
-Contoh beberapa perintah SQL
+Contoh beberapa perintah SQL  
 DDL :
 - Create Database
 - Use database
