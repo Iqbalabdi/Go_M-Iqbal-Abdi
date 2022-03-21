@@ -16,6 +16,6 @@ Berikut code untuk melakukan automation script
 run dengan :  
 ```./automate.sh arg1 arg2 arg3```
 
-Hasil :
+Hasil :  
 ![hasil](./screenshots/dir_tree.jpg)  
 
