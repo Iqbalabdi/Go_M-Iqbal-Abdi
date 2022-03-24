@@ -6,4 +6,5 @@
 ## Summary 
 
 ## Praktikum
-
+1. Target API 1 (newsapi.org)
+- ![hasil](./screenshots/newsapi_1.jpg)
