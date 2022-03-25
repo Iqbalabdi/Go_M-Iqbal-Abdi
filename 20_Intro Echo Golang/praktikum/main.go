@@ -44,11 +44,9 @@ func GetUserController(c echo.Context) error {
 func UpdateUserController(c echo.Context) error {
   // your solution here
   user := User{}
-
   if err := c.Bind(&user); err != nil {
 	  return err
   }
-
   id, _ := strconv.Atoi(c.Param("id"))
   users[id-1].Name = user.Name
   return c.JSON(http.StatusOK, map[string]interface{}{
