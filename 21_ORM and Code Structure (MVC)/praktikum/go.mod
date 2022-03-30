@@ -1,4 +1,4 @@
-module orm_code-structuring
+module crud_go
 
 go 1.17
 
