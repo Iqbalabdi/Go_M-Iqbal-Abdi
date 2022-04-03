@@ -14,5 +14,5 @@ Berikut merupakan hasil dari pengimplementasian logger pada semua
 ### 2. Buatlah Autentikasi pada API Berikut ini
 - Generate Token
   ![hasil](./screenshots/get_token.jpg)
-- Hasil dari GET users dengan JWT
+- Hasil dari GET users dengan JWT  
   ![hasil](./screenshots/jwt_get.jpg)
