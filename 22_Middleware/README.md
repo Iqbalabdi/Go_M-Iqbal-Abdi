@@ -28,7 +28,7 @@ Beberapa third-party Middleware yang dapat dipakai dengan Go:
 ### 2. Buatlah Autentikasi pada API Berikut ini
 - Generate Token
   ![hasil](./screenshots/get_token.jpg)
-- Route dengan JWT Auth
+- Route dengan JWT Auth  
   ![hasil](./screenshots/jwt_route.jpg)
 - Hasil dari GET users dengan JWT  
   ![hasil](./screenshots/jwt_get.jpg)
