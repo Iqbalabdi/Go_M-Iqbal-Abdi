@@ -3,6 +3,7 @@ package Controllers
 import (
 	M "crud_go/app/Models"
 	"crud_go/config"
+	"crud_go/middleware"
 	"github.com/labstack/echo/v4"
 	"net/http"
 	"strconv"
@@ -84,5 +85,37 @@ func UpdateUserController(c echo.Context) error {
 	config.DB.Save(&user)
 	return c.JSON(http.StatusOK, map[string]interface{}{
 		"message": "success update user with id : " + string(rune(id)),
+	})
+}
+
+func LoginUserController(c echo.Context) error {
+	user := M.User{}
+
+	err := c.Bind(&user)
+	if err != nil {
+		return err
+	}
+
+	if err := config.DB.Where("email = ? AND password = ?", user.Email, user.Password).First(&user).Error; err != nil {
+		return c.JSON(http.StatusOK, map[string]interface{}{
+			"message": "failed to login",
+			"error":   err.Error(),
+		})
+	}
+
+	token, err := middleware.CreateToken(int(user.ID), user.Name)
+
+	if err != nil {
+		return c.JSON(http.StatusOK, map[string]interface{}{
+			"message": "anjay failed to login",
+			"error":   err.Error(),
+		})
+	}
+
+	userResponse := M.UsersResponse{Name: user.Name, Email: user.Email, Token: token}
+
+	return c.JSON(http.StatusOK, map[string]interface{}{
+		"message": "success login",
+		"user":    userResponse,
 	})
 }
