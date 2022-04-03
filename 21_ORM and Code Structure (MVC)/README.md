@@ -4,6 +4,9 @@
 - [Praktikum](#Praktikum)
 
 ## Summary
+### ORM 
+
+### Code Structure (MVC)
 
 ## Praktikum
 ### 1. API CRUD User Using Database
