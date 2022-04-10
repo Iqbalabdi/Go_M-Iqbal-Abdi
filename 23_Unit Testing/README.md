@@ -21,7 +21,7 @@ Pada task ini diberikan perintah untuk mengimplementasikan unit testing dari sel
 
 Source Code Testing :  
 - User Controller   
-  [source-code](./praktikum/RESTful-API/controllers/UserController_test.go)
+  [source-code](./praktikum/RESTful-API/controllers/BookController_test.go)
 - Book Controller  
   [source-code](./praktikum/RESTful-API/controllers/BookController_test.go)
   
