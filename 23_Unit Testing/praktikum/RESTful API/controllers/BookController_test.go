@@ -2,84 +2,42 @@ package controllers
 
 import (
 	"crud_go/config"
-	"fmt"
 	"github.com/go-playground/validator/v10"
-	"github.com/labstack/echo/v4"
-	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
+	// "fmt"
+	"github.com/labstack/echo/v4"
+	"github.com/stretchr/testify/assert"
 )
 
 var (
-	userSuccess = `{"name":"Alta","password": "123","email":"alta@gmail.com"}`
-	userFail    = `{"name":"Alta","password": "","email":"alta@gmail.com"}`
+	bookSuccess = `{"title":"Pemrograman jaringan","author": "Kadarsyah","year":2022}`
+	bookFail    = `{"title":"Pemrograman jaringan","author": "","year":}`
 
-	userLoginSuccess = `{"email":"alta@gmail.com","password": "123"}`
-	userLoginFail    = `{"email":"alta@gmail.com","password": ""}`
-
-	userUpdateSuccess = `{"name":"AltaBARU","password": "123","email":"alta@gmail.com"}`
-	userUpdateFail    = `{"name":"AltaBARU","password": "123","email":""}`
+	bookUpdateSuccess = `{"title":"Pemrograman jaringan Revisi","author": "Kadarsyah","year":2025}`
+	bookUpdateFail    = `{"title":"Pemrograman jaringan Revisi","author": "Kadarsyah","year":}`
 )
 
-func InitEchoTestAPI() *echo.Echo {
-	config.InitDBTest()
-	e := echo.New()
-	return e
-}
-
 type (
-	CustomUserValidator struct {
+	CustomBookValidator struct {
 		validator *validator.Validate
 	}
 )
 
-func (cv *CustomUserValidator) Validate(i interface{}) error {
+func (cv *CustomBookValidator) Validate(i interface{}) error {
 	if err := cv.validator.Struct(i); err != nil {
 		return echo.NewHTTPError(http.StatusBadRequest, err.Error())
 	}
 	return nil
 }
 
-func TestCreateUserController(t *testing.T) {
-	e := InitEchoTestAPI()
-
-	var testCases = []struct {
-		name                   string
-		path                   string
-		expectedStatus         int
-		expectedBodyStartsWith string
-		bodyRequest            string
-	}{
-		{
-			name:                   "berhasil",
-			path:                   "/users",
-			expectedStatus:         http.StatusOK,
-			expectedBodyStartsWith: "{\"status\":\"success\",\"users\":",
-			bodyRequest:            userSuccess,
-		},
-	}
-	for _, testCase := range testCases {
-		req := httptest.NewRequest(http.MethodPost, "/", strings.NewReader(testCase.bodyRequest))
-		req.Header.Set(echo.HeaderContentType, echo.MIMEApplicationJSON)
-		rec := httptest.NewRecorder()
-		c := e.NewContext(req, rec)
-		c.SetPath(testCase.path)
-
-		if assert.NoError(t, CreateUserController(c)) {
-			assert.Equal(t, testCase.expectedStatus, rec.Code)
-			body := rec.Body.String()
-			assert.True(t, strings.HasPrefix(body, testCase.expectedBodyStartsWith))
-		}
-	}
-}
-
-func TestLoginUserController(t *testing.T) {
+func TestCreateBookController(t *testing.T) {
 
 	config.InitDB()
 	e := echo.New()
-	e.Validator = &CustomUserValidator{validator: validator.New()}
+	e.Validator = &CustomBookValidator{validator: validator.New()}
 
 	var testCases = []struct {
 		name                   string
@@ -90,17 +48,17 @@ func TestLoginUserController(t *testing.T) {
 	}{
 		{
 			name:                   "berhasil",
-			path:                   "/login",
+			path:                   "/books",
 			expectedStatus:         http.StatusOK,
-			expectedBodyStartsWith: "{\"status\":\"success login\",\"user\":",
-			bodyRequest:            userLoginSuccess,
+			expectedBodyStartsWith: "{\"books\":",
+			bodyRequest:            bookSuccess,
 		},
 		{
 			name:                   "gagal",
-			path:                   "/login",
+			path:                   "/books",
 			expectedStatus:         http.StatusBadRequest,
-			expectedBodyStartsWith: "{\"message\"",
-			bodyRequest:            userLoginFail,
+			expectedBodyStartsWith: "{\"message\":",
+			bodyRequest:            bookFail,
 		},
 	}
 
@@ -111,16 +69,55 @@ func TestLoginUserController(t *testing.T) {
 		c := e.NewContext(req, rec)
 		c.SetPath(testCase.path)
 
-		if assert.NoError(t, LoginUserController(c)) {
+		if assert.NoError(t, CreateBookController(c)) {
 			assert.Equal(t, testCase.expectedStatus, rec.Code)
 			body := rec.Body.String()
+			// fmt.Println(body)
 			assert.True(t, strings.HasPrefix(body, testCase.expectedBodyStartsWith))
 		}
 	}
 }
 
-func TestGetUserController(t *testing.T) {
-	e := InitEchoTestAPI()
+func TestGetBooksController(t *testing.T) {
+
+	config.InitDB()
+	e := echo.New()
+	e.Validator = &CustomBookValidator{validator: validator.New()}
+
+	var testCases = []struct {
+		name                   string
+		path                   string
+		expectedStatus         int
+		expectedBodyStartsWith string
+	}{
+		{
+			name:                   "berhasil",
+			path:                   "/books",
+			expectedStatus:         http.StatusOK,
+			expectedBodyStartsWith: "{\"books\":",
+		},
+	}
+
+	for _, testCase := range testCases {
+		req := httptest.NewRequest(http.MethodGet, "/", nil)
+		req.Header.Set(echo.HeaderContentType, echo.MIMEApplicationJSON)
+		rec := httptest.NewRecorder()
+		c := e.NewContext(req, rec)
+		c.SetPath(testCase.path)
+
+		if assert.NoError(t, GetBooksController(c)) {
+			assert.Equal(t, testCase.expectedStatus, rec.Code)
+			body := rec.Body.String()
+			// fmt.Println(body)
+			assert.True(t, strings.HasPrefix(body, testCase.expectedBodyStartsWith))
+		}
+	}
+}
+func TestGetBookDetailControllers(t *testing.T) {
+
+	config.InitDB()
+	e := echo.New()
+	e.Validator = &CustomBookValidator{validator: validator.New()}
 
 	var testCases = []struct {
 		name                   string
@@ -132,17 +129,17 @@ func TestGetUserController(t *testing.T) {
 	}{
 		{
 			name:                   "berhasil",
-			path:                   "/users/:id",
+			path:                   "/books/:id",
 			param:                  "id",
 			paramValue:             "1",
 			expectedStatus:         http.StatusOK,
-			expectedBodyStartsWith: "{\"status\":\"success\",\"user\":",
+			expectedBodyStartsWith: "{\"books\":",
 		},
 		{
 			name:                   "gagal",
-			path:                   "/users/:id",
+			path:                   "/books/:id",
 			param:                  "id",
-			paramValue:             "4",
+			paramValue:             "dsadsa",
 			expectedStatus:         http.StatusBadRequest,
 			expectedBodyStartsWith: "{\"message\"",
 		},
@@ -156,48 +153,19 @@ func TestGetUserController(t *testing.T) {
 		c.SetParamNames(testCase.param)
 		c.SetParamValues(testCase.paramValue)
 
-		if assert.NoError(t, GetUserController(c)) {
+		if assert.NoError(t, GetBookController(c)) {
 			assert.Equal(t, testCase.expectedStatus, rec.Code)
 			body := rec.Body.String()
-			assert.True(t, strings.HasPrefix(body, testCase.expectedBodyStartsWith))
-		}
-	}
-
-}
-
-func TestGetUsersController(t *testing.T) {
-	e := InitEchoTestAPI()
-
-	var testCases = []struct {
-		name                   string
-		path                   string
-		expectedStatus         int
-		expectedBodyStartsWith string
-	}{
-		{
-			name:                   "berhasil",
-			path:                   "/users",
-			expectedStatus:         http.StatusOK,
-			expectedBodyStartsWith: "{\"status\":\"success\",\"users\":",
-		},
-	}
-	for _, testCase := range testCases {
-		req := httptest.NewRequest(http.MethodGet, "/", nil)
-		req.Header.Set(echo.HeaderContentType, echo.MIMEApplicationJSON)
-		rec := httptest.NewRecorder()
-		c := e.NewContext(req, rec)
-		c.SetPath(testCase.path)
-
-		if assert.NoError(t, GetUsersController(c)) {
-			assert.Equal(t, testCase.expectedStatus, rec.Code)
-			body := rec.Body.String()
+			// fmt.Println(body)
 			assert.True(t, strings.HasPrefix(body, testCase.expectedBodyStartsWith))
 		}
 	}
 }
+func TestUpdateBookController(t *testing.T) {
 
-func TestUpdateUserController(t *testing.T) {
-	e := InitEchoTestAPI()
+	config.InitDB()
+	e := echo.New()
+	e.Validator = &CustomBookValidator{validator: validator.New()}
 
 	var testCases = []struct {
 		name                   string
@@ -210,21 +178,21 @@ func TestUpdateUserController(t *testing.T) {
 	}{
 		{
 			name:                   "berhasil",
-			path:                   "/users/:id",
-			expectedStatus:         http.StatusOK,
+			path:                   "/books/:id",
 			param:                  "id",
 			paramValue:             "1",
-			expectedBodyStartsWith: "{\"status\":\"success\",\"users\":",
-			bodyRequest:            userUpdateSuccess,
+			expectedStatus:         http.StatusOK,
+			expectedBodyStartsWith: "{\"books\":",
+			bodyRequest:            bookUpdateSuccess,
 		},
 		{
 			name:                   "gagal",
-			path:                   "/users/:id",
+			path:                   "/books/:id",
 			param:                  "id",
 			paramValue:             "3",
 			expectedStatus:         http.StatusBadRequest,
 			expectedBodyStartsWith: "{\"message\"",
-			bodyRequest:            userUpdateFail,
+			bodyRequest:            bookUpdateFail,
 		},
 	}
 	for _, testCase := range testCases {
@@ -236,17 +204,20 @@ func TestUpdateUserController(t *testing.T) {
 		c.SetParamNames(testCase.param)
 		c.SetParamValues(testCase.paramValue)
 
-		if assert.NoError(t, UpdateUserController(c)) {
+		if assert.NoError(t, UpdateBookController(c)) {
 			assert.Equal(t, testCase.expectedStatus, rec.Code)
 			body := rec.Body.String()
-			fmt.Println()
+			// fmt.Println(body)
 			assert.True(t, strings.HasPrefix(body, testCase.expectedBodyStartsWith))
 		}
 	}
 }
 
-func TestDeleteUserController(t *testing.T) {
-	e := InitEchoTestAPI()
+func TestDeleteBookController(t *testing.T) {
+
+	config.InitDB()
+	e := echo.New()
+	e.Validator = &CustomBookValidator{validator: validator.New()}
 
 	var testCases = []struct {
 		name                   string
@@ -258,15 +229,15 @@ func TestDeleteUserController(t *testing.T) {
 	}{
 		{
 			name:                   "berhasil",
-			path:                   "/users/:id",
+			path:                   "/books/:id",
 			param:                  "id",
 			paramValue:             "1",
 			expectedStatus:         http.StatusOK,
-			expectedBodyStartsWith: "{\"status\":\"success\",\"users\":",
+			expectedBodyStartsWith: "{\"books\":",
 		},
 		{
 			name:                   "gagal",
-			path:                   "/users/:id",
+			path:                   "/books/:id",
 			param:                  "id",
 			paramValue:             "3",
 			expectedStatus:         http.StatusBadRequest,
@@ -274,7 +245,7 @@ func TestDeleteUserController(t *testing.T) {
 		},
 	}
 	for _, testCase := range testCases {
-		req := httptest.NewRequest(http.MethodPut, "/", nil)
+		req := httptest.NewRequest(http.MethodDelete, "/", nil)
 		req.Header.Set(echo.HeaderContentType, echo.MIMEApplicationJSON)
 		rec := httptest.NewRecorder()
 		c := e.NewContext(req, rec)
@@ -282,10 +253,10 @@ func TestDeleteUserController(t *testing.T) {
 		c.SetParamNames(testCase.param)
 		c.SetParamValues(testCase.paramValue)
 
-		if assert.NoError(t, DeleteUserController(c)) {
+		if assert.NoError(t, DeleteBookController(c)) {
 			assert.Equal(t, testCase.expectedStatus, rec.Code)
 			body := rec.Body.String()
-			fmt.Println()
+			// fmt.Println(body)
 			assert.True(t, strings.HasPrefix(body, testCase.expectedBodyStartsWith))
 		}
 	}

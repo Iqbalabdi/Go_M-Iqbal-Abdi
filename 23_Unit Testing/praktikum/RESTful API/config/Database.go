@@ -71,14 +71,14 @@ func InitDBTest() {
 }
 
 func InitialMigration() {
-	err := DB.AutoMigrate(&M.User{})
+	err := DB.AutoMigrate(&M.User{}, &M.Book{})
 	if err != nil {
 		return
 	}
 }
 
 func InitialMigrationTest() {
-	err := DB.AutoMigrate(&M.User{})
+	err := DB.AutoMigrate(&M.User{}, &M.Book{})
 	if err != nil {
 		return
 	}

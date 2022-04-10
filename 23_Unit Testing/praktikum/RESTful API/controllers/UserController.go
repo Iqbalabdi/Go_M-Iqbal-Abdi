@@ -114,25 +114,23 @@ func LoginUserController(c echo.Context) error {
 	}
 
 	if err := config.DB.Where("email = ? AND password = ?", user.Email, user.Password).First(&user).Error; err != nil {
-		return c.JSON(http.StatusOK, map[string]interface{}{
-			"message": "failed to login",
-			"error":   err.Error(),
+		return c.JSON(http.StatusBadRequest, map[string]interface{}{
+			"message": "Internal Server Error",
 		})
 	}
 
 	token, err := middleware.CreateToken(int(user.ID), user.Name)
 
 	if err != nil {
-		return c.JSON(http.StatusOK, map[string]interface{}{
-			"message": "anjay failed to login",
-			"error":   err.Error(),
+		return c.JSON(http.StatusBadRequest, map[string]interface{}{
+			"message": "Internal Server Error",
 		})
 	}
 
 	userResponse := M.UsersResponse{Name: user.Name, Email: user.Email, Token: token}
 
 	return c.JSON(http.StatusOK, map[string]interface{}{
-		"message": "success login",
-		"user":    userResponse,
+		"status": "success login",
+		"user":   userResponse,
 	})
 }
