@@ -19,4 +19,8 @@ Berikut merupakan coverage dari testing function calculator :
 ### 2. RESTful API Testing
 Pada task ini diberikan perintah untuk mengimplementasikan unit testing dari seluruh endpoint dari project sebelumnya. Dan coverage yang harus dicapai setidaknya >= 80%
 
-[source-code](./praktikum/RESTful API/controllers/UserController_test.go)
+Source Code Testing :  
+- User Controller   
+  [source-code](./praktikum/RESTful-API/controllers/UserController_test.go)
+- Book Controller  
+  [source-code](./praktikum/RESTful-API/controllers/BookController_test.go)
