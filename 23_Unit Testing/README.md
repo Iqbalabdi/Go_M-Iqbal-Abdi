@@ -24,3 +24,10 @@ Source Code Testing :
   [source-code](./praktikum/RESTful-API/controllers/UserController_test.go)
 - Book Controller  
   [source-code](./praktikum/RESTful-API/controllers/BookController_test.go)
+  
+ Berikut merupakan hasil dari coverage report :
+ - HTML file
+  ![hasil](./screenshots/coverage_report.jpg)  
+ 
+ - CLI
+  ![hasil](./screenshots/coverage_report_2.jpg)
