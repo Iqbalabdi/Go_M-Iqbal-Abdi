@@ -15,6 +15,11 @@ Untuk menerapkan prinsip clean architecture, saya menggunakan referensi diagram 
 ![diagram](https://raw.githubusercontent.com/bxcodec/go-clean-arch/master/clean-arch.png)  
 
 Dengan menggunakan diagram tersebut, saya dapat membuat struktur project saya sebagai berikut :  
+![structure](./screenshots/structure.jpg) 
+
+- model/user.go  
+  ![code](./screenshots/user_model.jpg)   
+  file ini berisi entity user dasn entity ini akan dipakai oleh dua interface yaitu `userRepository` dan `userUseCase`
 
 
 
