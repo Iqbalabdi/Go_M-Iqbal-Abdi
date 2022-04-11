@@ -17,8 +17,8 @@ Untuk menerapkan prinsip clean architecture, saya menggunakan referensi diagram 
 Dengan menggunakan diagram tersebut, saya dapat membuat struktur project saya sebagai berikut :  
 ![structure](./screenshots/structure.jpg) 
 
-- model/user.go
-  [code](./screenshots/user_model.jpg) 
+- model/user.go  
+  ![code](./screenshots/user_model.jpg)   
   file ini berisi entity user dasn entity ini akan dipakai oleh dua interface yaitu `userRepository` dan `userUseCase`
 
 
