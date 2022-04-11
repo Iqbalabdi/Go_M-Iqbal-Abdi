@@ -28,11 +28,8 @@ Dengan menggunakan diagram tersebut, saya dapat membuat struktur project saya se
   directory ini berisi bussiness logic pada model User
 
 Hasil :  
-- Create User
-  ![hasil](./screenshots/createuser.jpg)   
-  ![hasil](./screenshots/createuser_2.jpg)   
-- Get All User
-  ![hasil](./screenshots/getallusers.jpg)   
-
-
-
+- Create User  
+  ![hasil](./screenshots/createuser.jpg)  
+  ![hasil](./screenshots/createuser_2.jpg)  
+- Get All User  
+  ![hasil](./screenshots/getallusers.jpg)  
