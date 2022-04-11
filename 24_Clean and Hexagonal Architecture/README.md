@@ -17,14 +17,14 @@ Untuk menerapkan prinsip clean architecture, saya menggunakan referensi diagram 
 Dengan menggunakan diagram tersebut, saya dapat membuat struktur project saya sebagai berikut :  
 ![structure](./screenshots/structure.jpg) 
 
-- model
+- model  
   ![code](./screenshots/user_model.jpg)   
   directory ini berisi entity user dasn entity ini akan dipakai oleh dua interface yaitu `userRepository` dan `userUseCase`
-- user/controller/http
+- user/controller/http  
   directory ini beriisi domain http/delivery/handler dengan RESTful API
-- user/repository
+- user/repository  
   directory ini berisi domain repository dengan menggunakan Sqlite sebagai database
-- user/usecase
+- user/usecase  
   directory ini berisi bussiness logic pada model User
 
 Hasil :  
