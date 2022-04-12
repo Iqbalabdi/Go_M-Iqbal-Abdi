@@ -19,7 +19,7 @@ func NewUserHandler(e *echo.Echo, uc model.UserUseCase) {
 	}
 
 	e.GET("/users", handler.GetAllUsers, middleware.JWTMiddleware())
-	e.POST("/users", handler.CreateUser)
+	e.POST("/users", handler.CreateUser, middleware.JWTMiddleware())
 	e.POST("/login", handler.Login)
 }
 
