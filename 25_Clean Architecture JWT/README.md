@@ -4,7 +4,12 @@
 - [Praktikum](#Praktikum)
 
 ## Summary
-Lagi dibuat  
+JWT adalah sebuah token berbentuk string panjang yang sangat random yang gunanya sendiri untuk melakukan sistem Autentikasi dan Pertukaran Informasi.
+
+JWT token terdiri dari :
+- header
+- payload
+- Verify signature 
 ## Praktikum
 ### 1. JWT Implementation
 Pada task ini, saya disuruh untuk mengimplementasikan JWT pada project di section 24 (yang sudah di rewrite dengan prinsip clean architecture)
