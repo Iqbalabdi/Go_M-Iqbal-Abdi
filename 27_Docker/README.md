@@ -27,4 +27,7 @@ Layanan yang disediakan untuk menemukan dan berbagi Docker image.
 ### Dockerfile
 Dockerfile adalah merupakan skrip yang berisi atau terdiri dari serangkaian perintah, intruksi (argumen) yang akan dieksekusi secara otomatisasi dan berurutan untuk membangun sebuah image.
 
+Syntax pada dockerfile :  
+![image](https://user-images.githubusercontent.com/75016595/163788160-6dfc8f7e-09dd-474d-9984-8eb5da46468f.png)
+
 ## Praktikum
