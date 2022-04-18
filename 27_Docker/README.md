@@ -4,8 +4,10 @@
 - [Praktikum](#Praktikum)
 
 ## Summary
+
 ### Pengertian
 Docker adalah layanan yang menyediakan kemampuan untuk mengemas dan menjalankan sebuah aplikasi dalam sebuah lingkungan terisolasi yang disebut dengan container.
+
 ### Istilah
 - __Docker image__  
 Kumpulan file yang menunjang sebuah aplikasi.
@@ -21,5 +23,8 @@ Komponen yang menyediakan lingkungan untuk menjalankan aplikasi. Docker host ber
 Wadah untuk menyimpan Docker image. Docker image akan memberi reaksi sesuai perintah yang diberikan. Misalnya, saat diberi perintah docker push, docker image akan didorong atau dibagikan ke registry Docker Hub.
 - __Docker Hub__    
 Layanan yang disediakan untuk menemukan dan berbagi Docker image.
+
+### Dockerfile
+Dockerfile adalah merupakan skrip yang berisi atau terdiri dari serangkaian perintah, intruksi (argumen) yang akan dieksekusi secara otomatisasi dan berurutan untuk membangun sebuah image.
 
 ## Praktikum
