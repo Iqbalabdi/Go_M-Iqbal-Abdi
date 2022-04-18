@@ -20,7 +20,7 @@ Pada task kali ini, saya disuruh untuk menambahkan unit testing dari setiap laye
   
 ### Layer Usecase
 - Berikut merupakan source code testing dari user_usecase_test  
-  [source-code](./praktikum/user/delivery/http/user_usecase_test.go)
+  [source-code](./praktikum/user/usecase/user_usecase_test.go)
 
 - Berikut merupakan hasil dari testing
   1. CLI  
@@ -30,7 +30,7 @@ Pada task kali ini, saya disuruh untuk menambahkan unit testing dari setiap laye
   
 ### Layer Repository
 - Berikut merupakan source code testing dari mysql_user_test 
-  [source-code](./praktikum/user/delivery/http/mysql_user_test.go)
+  [source-code](./praktikum/user/repository/mysql_user_test.go)
 
 - Berikut merupakan hasil dari testing
   1. CLI  
