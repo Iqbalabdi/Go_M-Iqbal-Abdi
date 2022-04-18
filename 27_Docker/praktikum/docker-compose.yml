@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    container_name: godockerDB
+    environment:
+      MYSQL_DATABASE: 'alta_section_24'
+      MYSQL_USER: 'root'
+      MYSQL_PASSWORD: ''
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db:/c/xampp/mysql
+  web:
+    build: .
+    restart: always
+    ports:
+      - "3200:3222"
+    image : alta_clean:v0.1.0
+volumes:
+  my-db:
+  
