@@ -1,0 +1,11 @@
+mode: set
+rest-clean/user/repository/mysql/mysql_user.go:12.64,16.2 1 1
+rest-clean/user/repository/mysql/mysql_user.go:18.71,19.53 1 1
+rest-clean/user/repository/mysql/mysql_user.go:22.2,22.17 1 1
+rest-clean/user/repository/mysql/mysql_user.go:19.53,21.3 1 1
+rest-clean/user/repository/mysql/mysql_user.go:25.85,26.54 1 1
+rest-clean/user/repository/mysql/mysql_user.go:29.2,29.18 1 1
+rest-clean/user/repository/mysql/mysql_user.go:26.54,28.3 1 1
+rest-clean/user/repository/mysql/mysql_user.go:32.89,34.90 2 1
+rest-clean/user/repository/mysql/mysql_user.go:37.2,37.22 1 1
+rest-clean/user/repository/mysql/mysql_user.go:34.90,36.3 1 1
