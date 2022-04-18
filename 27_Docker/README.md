@@ -31,3 +31,4 @@ Syntax pada dockerfile :
 ![image](https://user-images.githubusercontent.com/75016595/163788160-6dfc8f7e-09dd-474d-9984-8eb5da46468f.png)
 
 ## Praktikum
+### 1. Install Docker & Docker Compose
