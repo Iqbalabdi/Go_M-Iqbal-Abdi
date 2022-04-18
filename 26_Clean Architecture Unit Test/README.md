@@ -4,7 +4,6 @@
 - [Praktikum](#Praktikum)
 
 ## Summary
-Lagi dibuat  
 ## Praktikum
 Pada task kali ini, saya disuruh untuk menambahkan unit testing dari setiap layer pada project yang sudah menerapkan clean architecture sebelumnya.
 
