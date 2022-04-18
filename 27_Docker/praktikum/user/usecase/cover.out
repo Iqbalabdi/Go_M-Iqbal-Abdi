@@ -1,0 +1,18 @@
+mode: set
+rest-clean/user/usecase/user_ucase.go:12.65,16.2 1 1
+rest-clean/user/usecase/user_ucase.go:18.63,20.16 2 1
+rest-clean/user/usecase/user_ucase.go:23.2,23.8 1 1
+rest-clean/user/usecase/user_ucase.go:20.16,22.3 1 1
+rest-clean/user/usecase/user_ucase.go:26.77,28.38 2 1
+rest-clean/user/usecase/user_ucase.go:32.2,33.16 2 1
+rest-clean/user/usecase/user_ucase.go:36.2,36.8 1 1
+rest-clean/user/usecase/user_ucase.go:28.38,30.3 1 1
+rest-clean/user/usecase/user_ucase.go:33.16,35.3 1 1
+rest-clean/user/usecase/user_ucase.go:39.65,42.16 3 1
+rest-clean/user/usecase/user_ucase.go:45.2,45.18 1 1
+rest-clean/user/usecase/user_ucase.go:42.16,44.3 1 1
+rest-clean/user/usecase/user_ucase.go:48.61,49.39 1 1
+rest-clean/user/usecase/user_ucase.go:53.2,55.54 2 1
+rest-clean/user/usecase/user_ucase.go:59.2,59.18 1 1
+rest-clean/user/usecase/user_ucase.go:49.39,51.3 1 1
+rest-clean/user/usecase/user_ucase.go:55.54,57.3 1 1
