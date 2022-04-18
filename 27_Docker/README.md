@@ -34,10 +34,10 @@ Syntax pada dockerfile :
 1. Install Docker & Docker Compose  
 ![image](./screenshots/1.jpg)
 
-2. Create Dockerfile
+2. Create Dockerfile  
 ![image](./screenshots/2.jpg)
 
-3. Clone your code and integrate docker file
+3. Clone your code and integrate docker file  
 ```Dockerfile
 FROM golang:1.17-alpine
 
@@ -56,8 +56,8 @@ EXPOSE 3222
 
 CMD ["/dist"]
 ```
-4. Build your container
+4. Build your container  
 ![image](./screenshots/4.jpg)
 
-5. Push the image to docker registry
+5. Push the image to docker registry  
 ![image](./screenshots/5.jpg)
