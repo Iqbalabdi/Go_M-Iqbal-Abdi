@@ -8,6 +8,10 @@ Lagi dibuat
 ## Praktikum
 Pada task kali ini, saya disuruh untuk menambahkan unit testing dari setiap layer pada project yang sudah menerapkan clean architecture sebelumnya.
 
+- Untuk melakukan mocking, saya menggunakan `go-sqlmock` dari `github.com/DATA-DOG/go-sqlmock`
+- Untuk melakukan testing, saya menggunakan `testify`
+
+
 ### Layer Delivery
 - Berikut merupakan source code testing dari user_handler_test  
   [source-code](./praktikum/user/delivery/http/user_handler_test.go)
