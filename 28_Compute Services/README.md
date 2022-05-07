@@ -13,6 +13,7 @@ Deployment adalah kegiatan yang bertujuan untuk menyebarkan aplikasi/produk yang
 - Blue/Green Deployment Strategy
 - Canary Deployment Strategy
 ### Dev-Ops
+![image](https://user-images.githubusercontent.com/75016595/167264213-8859b9ca-f202-4e63-9bdf-0f483d71e4a4.png)
 
 ## Praktikum
 Maaf, saya belum bisa mengerjain section ini dikarenakan 3 akun AWS saya selalu kena suspend saat memakai Bank Jago.
