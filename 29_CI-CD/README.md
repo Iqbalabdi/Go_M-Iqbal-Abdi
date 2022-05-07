@@ -23,7 +23,9 @@ Steps :
 - Saya membuat repo testing baru di `https://github.com/Iqbalabdi/alta-ci-cd-testing`
 - Cloning repo `https://github.com/goFrendiAsgard/alta-batch-3-ec2`
 - Push hasil clone ke repo
-- Edit secrets di repo testing agar bisa melakukan deployment ke server
+- Karena untuk koneksi SSH ke server saya menggunakan password, maka pada file `deploy.yml` ada sedikit peenyesuian  
+  ![hasil](./screenshots/deploy_code.jpg)
+- Edit secrets di repo testing agar bisa melakukan deployment ke server  
   ![hasil](./screenshots/secrets.jpg)
-- Run jobs pada Actions
+- Run jobs pada Actions  
   ![hasil](./screenshots/actions.jpg)
