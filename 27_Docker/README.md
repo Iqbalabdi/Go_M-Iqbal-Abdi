@@ -31,4 +31,33 @@ Syntax pada dockerfile :
 ![image](https://user-images.githubusercontent.com/75016595/163788160-6dfc8f7e-09dd-474d-9984-8eb5da46468f.png)
 
 ## Praktikum
-### 1. Install Docker & Docker Compose
+1. Install Docker & Docker Compose  
+![image](./screenshots/1.jpg)
+
+2. Create Dockerfile  
+![image](./screenshots/2.jpg)
+
+3. Clone your code and integrate docker file  
+```Dockerfile
+FROM golang:1.17-alpine
+
+WORKDIR /app
+
+COPY go.mod ./
+COPY go.sum ./
+
+RUN go mod download
+
+COPY . .
+
+RUN go build -a -tags netgo -ldflags '-w -extldflags "-static"' -o /dist ./app/main.go 
+
+EXPOSE 3222
+
+CMD ["/dist"]
+```
+4. Build your container  
+![image](./screenshots/4.jpg)
+
+5. Push the image to docker registry  
+![image](./screenshots/5.jpg)
